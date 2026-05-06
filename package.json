@@ -1,11 +1,10 @@
 {
-  "name": "fii-dii-proxy",
-  "version": "1.0.0",
-  "description": "FII/DII data proxy for Signal Tracker Pro — fetches NSE data and serves it with CORS",
-  "main": "server.js",
+  "name": "signal-tracker-backend",
+  "version": "2.0.0",
+  "description": "Signal Tracker Pro — NSE proxy + personal state sync",
+  "main": "server_v2.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node server_v2.js"
   },
   "dependencies": {
     "express": "^4.18.2",
